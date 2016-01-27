@@ -11,7 +11,7 @@ public class Principal_ejecutable {
 		
 		donals.AndaHaciaDetras(5);
 		
-		System.out.println(donals.DimePosicion()); //posicion 20 final
+		System.out.println("La posición de mi pato es "+donals.DimePosicion()); //posicion 20 final
 	}
 
 }

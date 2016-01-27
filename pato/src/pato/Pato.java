@@ -2,14 +2,19 @@ package pato;
 
 public class Pato {
 
+	// Propiedades de Pato
 	private int Posicion;
-	public Pato (int pos)
+	
+	// Constructor
+	public Pato (int pos) 
 	{
 		this.Posicion=pos;
 	}
+	
+	// Métodos
 	public int AndaHaciaAdelante (int pasos)
 	{
-		return this.Posicion+=pasos;
+		return this.Posicion+=pasos; // this.Posicion=Posicion + pasos
 	}
 	public int AndaHaciaDetras (int pasos)
 	{
