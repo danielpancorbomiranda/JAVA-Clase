@@ -4,7 +4,9 @@ public class Pato {
 
 	// Propiedades de Pato
 	private int Posicion;
+	private String Sexo;
 	
+
 	// Constructor
 	public Pato (int pos) 
 	{
@@ -23,5 +25,9 @@ public class Pato {
 	public int DimePosicion()
 	{
 		return this.Posicion;
+	}
+	public int DimeSexo()
+	{
+		return this.Sexo;
 	}
 }
